@@ -53,7 +53,7 @@ This project implements a hybrid log classification system, combining three comp
    To start the server, use the following command:
 
    ```bash
-   :
+   uvicorn server:app --reload
    ```
 
    Once the server is running, you can access the API at:
